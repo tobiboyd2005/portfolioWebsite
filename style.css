@@ -1,83 +1,33 @@
+body{
+    background: antiquewhite;
+}
+
 nav{
-    display: fixed;
-    background-color: #0D1282;
-    height: 80px;
+    background: #191D88;
+    color: antiquewhite;
 }
 
-nav ul {
-    list-style: none;
-    font-family: 'Montserrat', sans-serif;
-    box-sizing: border-box;
-    float: right;
-    margin-right: 20px;
+.navbar-toggler {
+    border: none !important; /* Remove the default border on the button */
+    outline: none !important; /* Remove the default outline on the button */
+    box-shadow: none !important;
+    margin-left: auto;
 }
 
-nav ul li{
-    display: inline-block;
-    line-height: 80px;
-    margin: 0 5px;
+.navbar-toggler:focus {
+    outline: none !important;
+    border: none !important;
+    box-shadow: none !important;
 }
 
-nav ul li a{
-    color: white;
-    font-size: 17px;
-    padding: 7px 13px;
-    border-radius: 3px;
-    text-transform: uppercase;
-    text-decoration: none;
+.navbar-toggler-icon {
+        background-image: url('./menu.png'); /* Replace 'your-custom-icon.png' with your image path or URL */
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 60px; /* Adjust the width and height as needed */
+        height: 60px;
 }
 
-a.active,a:hover{
-    background: #EEEDED;
-    transition: .5s;
-    color: black;
-}
 
-.checkbtn{
-    line-height: 10px;;
-    height: 60px;
-    float: right;
-    margin-top: 10px;
-    margin-right: 40px;
-    cursor: pointer; 
-}
 
-#check{
-    display: none;
-}
 
-@media (max-width: 952px){
-    logo{
-        height: 30px;
-        margin-left: 50px;
-    }
-    nav ul li a{
-        font-size: 16px;
-    }
-}
-
-@media (max-width: 858px){
-    .checkbtn,#check{
-        display: block;
-    }
-    ul{
-        position: fixed;
-        width: 100%;
-        height: 100vh;
-        background: #2c3e50;
-        top: 80px;
-        left: -100;
-        text-align: center;
-        transition: all .5s;
-    }
-    nav ul li{
-        display: block;
-    }
-    nav ul li a{
-        font-size: 20px;
-    }
-    a:hover,a.active{
-        background: none;
-        color: #0082e6;
-    }
-}

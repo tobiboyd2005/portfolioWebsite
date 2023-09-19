@@ -7,6 +7,12 @@ nav{
     color: antiquewhite;
 }
 
+.nav-link{
+    text-align: center;
+}
+
+
+
 .navbar-toggler {
     border: none !important; /* Remove the default border on the button */
     outline: none !important; /* Remove the default outline on the button */
@@ -28,7 +34,5 @@ nav{
         width: 50px; /* Adjust the width and height as needed */
         height: 50px;
 }
-
-
 
 

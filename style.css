@@ -12,6 +12,7 @@ nav{
     outline: none !important; /* Remove the default outline on the button */
     box-shadow: none !important;
     margin-left: auto;
+    
 }
 
 .navbar-toggler:focus {
@@ -24,8 +25,8 @@ nav{
         background-image: url('./menu.png'); /* Replace 'your-custom-icon.png' with your image path or URL */
         background-size: contain;
         background-repeat: no-repeat;
-        width: 60px; /* Adjust the width and height as needed */
-        height: 60px;
+        width: 50px; /* Adjust the width and height as needed */
+        height: 50px;
 }
 
 

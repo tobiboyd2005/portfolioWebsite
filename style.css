@@ -1,9 +1,11 @@
 body{
-    background: antiquewhite;
+    background: #4F4557;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 /*nav*/
 nav{
-    background: #191D88;
+    background: #393646;
     color: antiquewhite;
 }
 .nav-item{
@@ -43,7 +45,7 @@ nav{
 
 .nav-link.active,.nav-link:hover {
             color: white !important; /* Change text color to black */
-            background-color:#0D1282  !important; /* Change background color to antiquewhite */
+            background-color:#4F4557  !important; /* Change background color to antiquewhite */
             border-radius: 5px;
         }
 
@@ -83,8 +85,34 @@ nav{
     }
     
 }
-
 /*navbar*/
 
+
+
+
+/*main-index*/
+.tobi{
+    height: 40vh;
+    border-radius: 10px;
+}
+
+.tobi-cont{
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+
+}
+
+.tobi-text{
+    margin-top: 20px;
+    text-align: center;
+    color: #F4EEE0;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+/*main*/
 
 

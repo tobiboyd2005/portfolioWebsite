@@ -89,8 +89,9 @@ nav{
 
 /*main-index*/
 .tobi{
-    margin-top: 70px;
-    width: 100%;
+    margin-top: 90px;
+    max-height: 384px;
+    border-radius: 5px;
 }
 
 .tobi-cont{
@@ -124,6 +125,11 @@ nav{
 
 .ps-btn{
     margin-left: 20px; 
+}
+
+footer{
+    margin-top: 20px;
+    color: #F4EEE0
 }
 
 

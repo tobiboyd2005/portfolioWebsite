@@ -1,7 +1,7 @@
 body{
     background: antiquewhite;
 }
-
+/*nav*/
 nav{
     background: #191D88;
     color: antiquewhite;
@@ -23,6 +23,8 @@ nav{
     outline: none !important; /* Remove the default outline on the button */
     box-shadow: none !important;
     margin-left: auto;
+    margin-right: 0px !important;
+    padding-right: 0px !important;
     
 }
 
@@ -55,6 +57,12 @@ nav{
     .nav-link.active,.nav-link:hover{
         max-width: 100%;
     }
+
+    .nav-item{
+        margin-right: 0px;
+        font-family: 'Ubuntu', sans-serif;
+    
+    }
     
 }
 
@@ -67,8 +75,16 @@ nav{
     .nav-link.active,.nav-link:hover{
         max-width: 100%;
     }
+
+    .nav-item{
+        margin-right: 0px;
+        font-family: 'Ubuntu', sans-serif;
+    
+    }
     
 }
+
+/*navbar*/
 
 
 

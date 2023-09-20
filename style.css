@@ -53,7 +53,7 @@ nav{
     }
 
     .nav-link.active,.nav-link:hover{
-        max-width:400px;
+        max-width: 100%;
     }
     
 }
@@ -65,6 +65,7 @@ nav{
     }
 
     .nav-link.active,.nav-link:hover{
+        max-width: 100%;
     }
     
 }

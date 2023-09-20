@@ -6,6 +6,11 @@ nav{
     background: #191D88;
     color: antiquewhite;
 }
+.nav-item{
+    margin-right: 20px;
+    font-family: 'Ubuntu', sans-serif;
+
+}
 
 .nav-link{
     text-align: center;
@@ -29,10 +34,21 @@ nav{
 
 .navbar-toggler-icon {
         background-image: url('./menu.png'); /* Replace 'your-custom-icon.png' with your image path or URL */
-        background-size: contain;
-        background-repeat: no-repeat;
         width: 50px; /* Adjust the width and height as needed */
         height: 50px;
 }
+
+
+.nav-link.active,.nav-link:hover {
+            color: white !important; /* Change text color to black */
+            background-color:#0D1282  !important; /* Change background color to antiquewhite */
+            border-radius: 5px;
+        }
+
+.navstuff {
+    display: block;
+    width: 100%;
+}
+
 
 

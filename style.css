@@ -90,10 +90,9 @@ nav{
 /*main-index*/
 
 .home{
-    height: 100vh
 }
 .about-me{
-    height: 100vh;
+    margin-top: 200px;
     margin-left: 20px;
     margin-right: 20px;
     text-align: center;

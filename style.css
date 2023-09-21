@@ -109,12 +109,27 @@ nav{
 }
 
 .tobi-text{
-    margin-top: 20px;
+    margin-top: 10px;
     margin-left: 20px;
     text-align: justify;
     color: #F4EEE0;
     font-size: 35px;
-    font-family: 'Roboto', sans-serif;
+    line-height: 35px;
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+.hi{
+    font-size: 22px;
+}
+
+.pink{
+    color: #FF3FA4;
+    font-weight: bold;
+}
+
+.fsd{
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
 

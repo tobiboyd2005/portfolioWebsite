@@ -106,7 +106,17 @@ nav{
     font-family:'Didact Gothic', sans-serif ;
 }
 
-.about-me > h2{
+.skills{
+    height: 80vh;
+    margin-top: 80px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    color:#F4EEE0;
+    font-family:'Didact Gothic', sans-serif ;
+}
+
+h2{
     font-weight: bolder;
     font-stretch: expanded;
     font-size:xx-large;
@@ -181,11 +191,31 @@ nav{
     justify-content: center;
 }
 
+hr{
+    background-color: #FF3FA4;
+}
+
 footer{
     margin-top: 20px;
     color: #F4EEE0
 }
 
+.grid{
+    display: grid;
+    grid-template-columns: 100px 100px;
+    grid-template-rows: 100px 100px;
+    gap: 30px;
+}
+
+.grid > img{
+    width: 100px;
+}
+
+.skill-img{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
 
 
 

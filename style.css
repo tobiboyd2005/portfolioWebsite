@@ -97,7 +97,7 @@ nav{
     margin-top: 50px;
 }
 .about-me{
-    margin-top: 100px;
+    height: 80vh;
     margin-left: 20px;
     margin-right: 20px;
     text-align: center;
@@ -130,7 +130,6 @@ nav{
 .lottie-container{
     display: flex;
     justify-content: center;
-    margin-top:;
     height: 250px;
     border-radius: 5px;
 }

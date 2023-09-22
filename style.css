@@ -90,8 +90,11 @@ nav{
 /*main-index*/
 
 .home{
+    display: flex;
     height: 100vh;
-    padding-top: 120px;
+    align-items:center;
+    flex-direction: column;
+    margin-top: 50px;
 }
 .about-me{
     margin-top: 100px;

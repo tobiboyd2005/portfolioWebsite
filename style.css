@@ -90,6 +90,8 @@ nav{
 /*main-index*/
 
 .home{
+    height: 100vh;
+    padding-top: 120px;
 }
 .about-me{
     margin-top: 100px;
@@ -125,7 +127,7 @@ nav{
 .lottie-container{
     display: flex;
     justify-content: center;
-    margin-top: 70px;
+    margin-top:;
     height: 250px;
     border-radius: 5px;
 }

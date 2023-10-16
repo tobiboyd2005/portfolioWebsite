@@ -122,8 +122,9 @@ nav{
     justify-content: center;
 }
 
-
-
+.projects-cont > figure{
+    height: 50%;
+}
 
 
 
